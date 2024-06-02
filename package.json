@@ -4,8 +4,6 @@
   "type": "module",
   "scripts": {
     "start": "bun run index.ts",
-    "db:start": "docker run -d --name mandamento-postgres -e POSTGRES_PASSWORD=secret_mandamento_password -v $(pwd)/data/:/var/lib/postgresql/data -p 5432:5432 postgres",
-    "db:stop": "docker stop --name mandamento-postgres",
     "build": "bun build",
     "test": "bun test",
     "lint": "bun biome check --diagnostic-level=error --files-ignore-unknown=true --no-errors-on-unmatched --log-level=error --max-diagnostics=10000",
@@ -19,6 +17,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^0.9.3",
     "mqtt": "^5.7.0"
   }
 }
