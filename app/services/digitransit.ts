@@ -1,4 +1,5 @@
 import mqtt from 'mqtt';
+import { addVehiclePosition } from '../models/VehiclePosition';
 
 const client = mqtt.connect('mqtts://mqtt.hsl.fi:8883/', {
   rejectUnauthorized: false,
@@ -16,6 +17,11 @@ client.on('error', (error) => {
   console.error(error);
 });
 
-client.on('message', (topic, message) => {
-  console.log(topic, message.toString());
+client.on('message', async (topic, message) => {
+  try {
+    await addVehiclePosition(JSON.parse(message.toString()).VP);
+  } catch (error) {
+    console.error(error);
+    console.log(topic, message.toString());
+  }
 });
