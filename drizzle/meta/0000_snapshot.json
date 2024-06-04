@@ -1,0 +1,175 @@
+{
+  "id": "17459548-a663-427a-99a9-c6979c11452c",
+  "prevId": "00000000-0000-0000-0000-000000000000",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.vehicle_position": {
+      "name": "vehicle_position",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "desi": {
+          "name": "desi",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "dir": {
+          "name": "dir",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "oper": {
+          "name": "oper",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "veh": {
+          "name": "veh",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "tst": {
+          "name": "tst",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "tsi": {
+          "name": "tsi",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "spd": {
+          "name": "spd",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "hdg": {
+          "name": "hdg",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "lat": {
+          "name": "lat",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "long": {
+          "name": "long",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "acc": {
+          "name": "acc",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "dl": {
+          "name": "dl",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "odo": {
+          "name": "odo",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "drst": {
+          "name": "drst",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "oday": {
+          "name": "oday",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "jrn": {
+          "name": "jrn",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "line": {
+          "name": "line",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "start": {
+          "name": "start",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "loc": {
+          "name": "loc",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "stop": {
+          "name": "stop",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "route": {
+          "name": "route",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "occu": {
+          "name": "occu",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}

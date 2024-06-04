@@ -7,17 +7,21 @@
     "build": "bun build",
     "test": "bun test",
     "lint": "bun biome check --diagnostic-level=error --files-ignore-unknown=true --no-errors-on-unmatched --log-level=error --max-diagnostics=10000",
-    "lint:format:fix": "bun biome format --files-ignore-unknown=true --no-errors-on-unmatched --write"
+    "lint:format:fix": "bun biome format --files-ignore-unknown=true --no-errors-on-unmatched --write",
+    "generate": "drizzle-kit generate",
+    "migrate": "drizzle-kit migrate"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.7.3",
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "drizzle-kit": "^0.22.1"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
     "@neondatabase/serverless": "^0.9.3",
+    "drizzle-orm": "^0.31.0",
     "mqtt": "^5.7.0"
   }
 }
