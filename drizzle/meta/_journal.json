@@ -8,6 +8,20 @@
       "when": 1717526173469,
       "tag": "0000_fuzzy_shinobi_shaw",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1717526658151,
+      "tag": "0001_lonely_kinsey_walden",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1717527409437,
+      "tag": "0002_sturdy_terrax",
+      "breakpoints": true
     }
   ]
 }
