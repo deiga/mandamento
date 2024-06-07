@@ -43,6 +43,13 @@
       "when": 1717528524886,
       "tag": "0005_daily_maelstrom",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1717765359397,
+      "tag": "0006_stiff_absorbing_man",
+      "breakpoints": true
     }
   ]
 }

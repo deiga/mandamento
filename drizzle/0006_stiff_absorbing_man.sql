@@ -1,0 +1,1 @@
+ALTER TABLE "vehicle_positions" ALTER COLUMN "odo" SET DATA TYPE real;
